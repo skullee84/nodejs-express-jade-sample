@@ -127,5 +127,8 @@ html
 
 ```
 cd ~/app
+
 npm start
+
+브라우저에서 http://localhost:3000 접속!
 ```
