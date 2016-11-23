@@ -16,11 +16,11 @@ app.set('port', 3000);
 app.set('view engine', 'pug');
 
 // app.use(stylus.middleware(
-//   { src: __dirname + '/css'
+//   { src: __dirname + '/public'
 //   , compile: compile
 //   }
 // ));
-app.use('/css', express.static(path.join(__dirname, 'css')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
   res.render('index', {
