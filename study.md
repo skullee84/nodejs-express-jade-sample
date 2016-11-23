@@ -43,7 +43,9 @@
 
 ```
 <https://nodejs.org/ko/>
+
 node.js 설치 후
+
 sudo npm install nodemon -g
 ```
 
@@ -101,6 +103,7 @@ http.createServer(app).listen(app.get('port'), function() {
 
 ```
 touch ~/app/views/index.pug
+
 touch ~/app/public/css/style.css
 ```
 
