@@ -19,6 +19,26 @@
 #### package.json
 >프로젝트에 대한 설정을 package.json이라는 파일에 의존하고 있고 이 파일에 JSON형식으로 작성해서 프로젝트에 대한 관리를 할 수 있습니다. (project 정보 및 dependencies 관리)
 
+```
+{
+  "name": "nodejs-express-jade-sample",
+  "version": "1.0.0",
+  "description": "dia!!",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
+
+```
+
 - 사전 준비
 
 ```
